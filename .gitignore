@@ -1,0 +1,99 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
+yarn.lock
+ios/FursNPets.xcodeproj/project.pbxproj
+ios/FursNPets.xcodeproj/
+ios/FursNPets.xcodeproj/project.xcworkspace/
+ios/FursNPetsTests/FursNPetsTests.m
+android/app/src/main/
+ios/FursNPets.xcworkspace/
+tsconfig.json
+.buckconfig
+.eslintrc.js
+.node-version
+.prettierrc.js
+.ruby-version
+.watchmanconfig
+__tests__/App-test.tsx
+.bundle/config
+Gemfile.lock
+Gemfile
+babel.config.js
+android/gradlew
+android/app/proguard-rules.pro
+android/app/build_defs.bzl
+android/app/_BUCK
+metro.config.js
+android/gradlew.bat
+android/app/src/debug/java/com/fursnpets/ReactNativeFlipper.java
+android/gradle/wrapper/gradle-wrapper.jar
+ios/.xcode.env
+ios/Podfile.lock
+ios/FursNPets/AppDelegate.h
+ios/FursNPets/AppDelegate.mm
+ios/FursNPets/main.m
+ios/FursNPets/Images.xcassets/Contents.json
+ios/FursNPets/Images.xcassets/AppIcon.appiconset/Contents.json
+ios/FursNPets/LaunchScreen.storyboard
